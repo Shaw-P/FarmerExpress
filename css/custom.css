@@ -1,0 +1,45 @@
+/*client logo carousel*/
+
+section.logos-slider2 {
+	  width: 100%;
+     max-width:1400px;
+     margin: 0px auto;
+
+}
+ #logos-carousel2 .item {
+     text-align: left;
+     margin-bottom:40px;
+     -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+     transition: all 0.3s ease-in-out;
+}
+ #logos-carousel2 .item img {
+     padding: 20px 0;
+     transform-style: preserve-3d;
+     max-width: 250px;
+}
+
+.list {
+      line-height: 3rem;
+}
+ .list ul {
+      list-style: none;
+      counter-reset: li;
+}
+ .list li {
+      counter-increment: li;
+}
+ .list li::before {
+      content: counter(li);
+      color: white;
+      display: inline-block;
+      width: 2em;
+      margin-left: -1.5em;
+      margin-right: 0.5em;
+      text-align: center;
+      direction: rtl;
+      background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzBweCIgaGVpZ2h0PSIzMHB4IiB2aWV3Qm94PSIwIDAgMzAgMzAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjUgKDY3NDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5PdmFsPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcgaWQ9IkVsZW1lbnRzIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8Y2lyY2xlIGlkPSJPdmFsIiBmaWxsPSIjRUY5NDJDIiBjeD0iMTUiIGN5PSIxNSIgcj0iMTUiPjwvY2lyY2xlPgogICAgPC9nPgo8L3N2Zz4=");
+      background-repeat: no-repeat;
+      background-position: center;
+}
+ 
