@@ -541,7 +541,7 @@ ul.nav.nav-tabs li {padding: 10px;}
 }
 
 .co_container:hover .overlay {
-  opacity: 1;
+  /* opacity: 1; */
 }
 .co_text {
   color: white;
