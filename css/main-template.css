@@ -34,6 +34,17 @@ body {
   width: 100%;
   clear: both; }
 
+.table-title {
+  text-align: center;
+  color: #408340;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 30px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 100%;
+  clear: both; }
+
 /*.container {
   width: 970px;
   margin: 0 auto;
@@ -187,10 +198,15 @@ Menu
 
 
 a.nav-active {font-size: 30px;color: #ff6374;}
-a:hover{color:#ff6374;}
+/* a:hover{color:#ff6374;} */
+a:hover{color:#F39800;}
 .list-inline img{width:100px;}
 .list-inline span{padding:10px; font-size:18px;}
-.container p{color:#ae7b31;}
+.container p{
+  /* color:#ae7b31; */
+  color:#8c5936;
+
+}
 .line2{ color: #ae7b31;}
 .hero h1{ font-size:90px; line-height:0.9; margin:0;}
 .hero .hero-center .container div{ float:left; padding: 10px;}
@@ -291,7 +307,10 @@ h3 {
 關於森鮮
 ===========================*/
 .about{ text-align:center;}
-.about h2{color:#000000;}
+.about h2{
+  color:#000000;
+  padding: 10px;
+}
 .about .connect h3{padding: 5px;
     background: #ae7b31;
     color: #fff;}
@@ -302,7 +321,14 @@ h3 {
 ===========================*/
 .nav-tabs .active p{ display:block;}
 .nav-tabs  li p{ display:none;}
-.text-center h1{ color:#cfa972; border-bottom:5px #cfa972 solid;max-width:500px; margin: 30px auto 25px;padding: 10px 0;}
+/* .text-center h1{
+  color:#cfa972;
+  border-bottom:5px
+  #cfa972 solid;
+  max-width:500px;
+  margin: 30px auto 25px;
+  padding: 10px 0;
+  } */
 .tab-pane ul, .tab-pane li{padding:0; list-style:none;}
 .tab-pane img{padding:10px;}
 .text-center .navbar-nav a .active{ color:#cfa972;}
@@ -322,7 +348,7 @@ ul.nav.nav-tabs li {
 客戶實績
 ===========================*/
 .case .tab-content ul li{ padding:10px; border-bottom:1px #CCC solid; color:#666; text-align:left;}
-.case .tab-content{ max-width:800px; margin:0 auto;margin-top:40px; background: #fff9; padding: 20px 30px 30px; border-radius:10px;}
+.case .tab-content{ max-width:800px; margin:0 auto; background: #fff9; padding: 20px 30px 30px; border-radius:10px;}
 
 /*==========================
 最新消息
@@ -347,6 +373,7 @@ Footer
 .footer h1{font-size:70px;margin: 0;}
 .footer h2{font-size:40px;}
 .footer h1,.footer h2{ font-weight:350; margin-top:0;}
+.bottom{ background-color:#f7e8b9; color:#696969; font-family:Microsoft JhengHei; padding:10px 0; }
 .footer .info{font-weight:350;}
 .footer .info li{ display: inline; padding-bottom:10px; margin-bottom:5px; font-size:20px;}
 /* .footer .info li{ display: inline;border-bottom:1px #FFF solid; padding-bottom:10px; margin-bottom:5px; font-size:20px;} */
@@ -357,6 +384,8 @@ font-size: 16px;}
 .container a {
     text-decoration: none;
 }
+
+
 /*==========================
 Mobile
 ===========================*/
@@ -406,7 +435,10 @@ Mobile
 }
 	}
 @media only screen and (min-width:768px){
-	.about{ padding-top:50px;}
+	.about{ 
+    padding-top:50px;
+    padding-bottom:50px;
+  }
 .nav-list > li:last-child { border-right: 0px solid #eee; }
 ul.nav-list.list-inline li {
     padding: 0 15px;

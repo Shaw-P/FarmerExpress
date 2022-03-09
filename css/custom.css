@@ -43,3 +43,19 @@ section.logos-slider2 {
       background-position: center;
 }
  
+.card {
+     margin-bottom: 1rem;
+}
+
+@media (max-width: 575.98px) {
+     .list-view .card {
+          flex-direction: column;
+    }
+}
+.list-view .card > .card-img-top {
+     width: auto;
+}
+.list-view .card .card-body {
+     display: inline-block;
+}
+  
