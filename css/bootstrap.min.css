@@ -2473,7 +2473,7 @@ select[multiple].input-lg, textarea.input-lg {
 }
 .has-success .form-control-feedback {
 	color:#3c763d
-}
+}	
 .has-warning .checkbox, .has-warning .checkbox-inline, .has-warning .control-label, .has-warning .help-block, .has-warning .radio, .has-warning .radio-inline, .has-warning.checkbox label, .has-warning.checkbox-inline label, .has-warning.radio label, .has-warning.radio-inline label {
 	color:#8a6d3b
 }
@@ -2747,6 +2747,9 @@ a.btn.disabled, fieldset[disabled] a.btn {
 	color:#fff;
 	background-color:#F39800;
 	border-color:#CC8100;
+
+	border: inherit;
+	border-radius: 0px 7px 6px 2px;
 	/* background-color:#449d44;
 	border-color:#398439 */
 }
@@ -5740,6 +5743,10 @@ td.visible-print, th.visible-print {
    position: relative;
    padding-left: 18px;
    padding-right: 18px;
+
+   border: inherit;
+   border-radius: 0px 7px 6px 2px;
+
 }
 
 .btn-arrow-right {
@@ -5764,7 +5771,7 @@ td.visible-print, th.visible-print {
    width: 22px;
    /* same as height */
    
-   height: 22px;
+   height: 19px;
    /* button_outer_height / sqrt(2) */
    
    background: inherit;
@@ -5812,14 +5819,15 @@ td.visible-print, th.visible-print {
 .btn-arrow-left:before {
    /* align the "before" square to the left */
    
-   left: -11px;
+   left: -12px; /*-11*/
 }
 
 .btn-arrow-right:after,
 .btn-arrow-left:after {
    /* align the "after" square to the right */
    
-   right: -11px;
+   right: -8px; /* 11px */
+
 }
 
 .btn-arrow-right:after,
