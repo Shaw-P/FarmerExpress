@@ -1117,10 +1117,10 @@ cursor:pointer
 	font-size:48px
 }
 .h2, h2 {
-	font-size:30px;
-	background-image: url("../images/title_bg.png");
-	background-repeat: no-repeat;
-	background-position: center;
+	font-size:34px;
+	/* background-image: url("../images/title_bg.png"); */
+	/* background-repeat: no-repeat; */
+	/* background-position: center; */
 }
 .h3, h3 {
 	font-size:32px
