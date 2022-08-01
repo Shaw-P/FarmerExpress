@@ -132,7 +132,7 @@ transition-duration:950ms
 }
 [aos][aos][aos-duration='1000'], body[aos-duration='1000'] [aos] {
 -webkit-transition-duration:1s;
-transition-duration:1s
+transition-duration:1.5s
 }
 [aos][aos][aos-duration='1050'], body[aos-duration='1050'] [aos] {
 -webkit-transition-duration:1.05s;

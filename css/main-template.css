@@ -20,8 +20,9 @@ body {
 .pic20 {
   width: 20%;
 }
-.pic50 {
-  width: 50%;
+.pic_preferred {
+  width: 73%;
+  margin: 1.9em;
 }
 .pic90 {
   width: 90%;
@@ -39,6 +40,15 @@ body {
   margin-top: 40px;
 }
 
+.mg_top_20 {
+  margin-top: 20px;
+}
+
+
+
+.font_weight_bold {
+  font-weight: bold;
+}
 .justify {
   text-align: justify;
   text-align-last: justify;
@@ -69,6 +79,17 @@ body {
   clear: both; 
 }
 
+.service_title {
+  color: #408340;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 100%;
+  clear: both; 
+  margin-top: 60px;
+  margin-bottom:60px;
+}
+
 .coBrand-title {
   text-align: center;
   color: #408340;
@@ -90,17 +111,27 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   width: 100%;
   clear: both; }
+/*==========================
+service
+===========================*/
+.service_title2 {
+  text-align: left;
+}
+.service-img {
+  border-radius: 20px;
+  margin-left: 85px;
+  width: 60%; 
+}
+.btn-title {
+	color:#fff;
+	background-color:#408340;
+	border-color:#ffffff00;
+  padding:5px 30px 5px 30px;
+}
+.btn-title-radius {
+  border-radius: 20px;
+}
 
-/*.container {
-  width: 970px;
-  margin: 0 auto;
-  max-width: 90%;
-  -webkit-transform: translateZ(1000px);
-transform: translateZ(1000px); 	  
-		  }*/
-/**
- * Hero
- */	  
 .hero {
   width: 100%;
   height: 85vh;
@@ -477,7 +508,7 @@ Mobile
 	}
 @media only screen and (min-width:768px){
 	.about{ 
-    padding-top:50px;
+    padding-top:20px;
     padding-bottom:20px;
     /* padding-bottom:50px; */
   }
@@ -563,9 +594,10 @@ ul.nav.nav-tabs li {padding: 10px;}
        width: 170px;
     margin: 0 auto;
 }
-.btn {font-size: 18px;}
+.btn {font-size: 30px;}
 .pic_phone {
     width:100%;
+    margin:10px 0px;
 }
 .pic_logo_phone {
   width:50%;
@@ -601,6 +633,21 @@ ul.nav.nav-tabs li {padding: 10px;}
 	.about h2, .about h3 { font-size:24px;}
 	.about .text p{ padding:30px 0;}
 .text-center h1 { margin: 10px auto 25px;}	
+.service_title2{
+    text-align: center;
+    margin-top: 10px;
+}
+.service-img {
+  border-radius: 20px;
+  width: 90%;
+  margin-left: auto; 
+}
+.btn-title {
+	color:#fff;
+	background-color:#408340;
+	border-color:#ffffff00;
+  padding:5px 55px 5px 55px;
+}
 }
 @media only screen and (max-width:350px){
 .hero {
