@@ -131,7 +131,18 @@ service
 .btn-title-radius {
   border-radius: 20px;
 }
+/*==========================
+food safety
+===========================*/
+.food_safety_title2 {
+  text-align: center;
+}
 
+.food_safety_img {
+  border-radius: 20px;
+  margin-top: 30px;
+  width: 45%; 
+}
 .hero {
   width: 100%;
   height: 85vh;
