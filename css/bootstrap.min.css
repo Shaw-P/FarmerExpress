@@ -4,7 +4,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 body {
-	margin:0
+	margin:0;
+	font-family: 'DM Sans', sans-serif;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
 	display:block
@@ -3578,7 +3579,7 @@ max-height:200px
 }
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
 	margin-right:-15px;
-	margin-left:-15px
+	margin-left:-15px;
 }
 @media (min-width:768px) {
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {

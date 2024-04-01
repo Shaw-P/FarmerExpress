@@ -3,7 +3,7 @@
 /* @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css); */
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC);
 body {
-	background: url(../images/bg.jpg) repeat;
+	/* background: url(../images/bg.jpg) repeat; */
 	background-size:200px;
 	/* font-family: 'cwTeXYen', sans-serif; */
   font-family: 'Noto Sans TC', sans-serif;
@@ -452,7 +452,9 @@ Footer
     position: relative;
     top: 100px;
     z-index: 2;}
-.footer{ background-color:#fbf4de; color:#696969; font-family:Microsoft JhengHei; padding:30px 0; }
+    
+/* .footer{ background-color:#fbf4de; color:#696969; font-family:Microsoft JhengHei; padding:30px 0; } */
+.footer{ background-color:#fbf4de; color:#696969; font-family: 'Noto Sans TC', sans-serif; padding:30px 0; }
 .footer h1{font-size:70px;margin: 0;}
 .footer h2{font-size:40px;}
 .footer h1,.footer h2{ font-weight:350; margin-top:0;}
