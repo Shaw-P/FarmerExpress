@@ -111,6 +111,15 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   width: 100%;
   clear: both; }
+
+.table-sub-title {
+    text-align: center;
+    color: #408340;
+    text-transform: uppercase;
+    /* border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
+    width: 100%;
+    clear: both; }
 /*==========================
 service
 ===========================*/
