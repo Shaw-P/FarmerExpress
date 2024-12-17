@@ -41,3 +41,68 @@
   text-align: center;
   width: 100%;
 }
+
+/* floating buttons start */
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.floating-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.floating-btn i {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+.line-btn {
+  background-color: #00B900;
+}
+
+.phone-btn {
+  background-color: #1a54a8;
+}
+
+.top-btn {
+  background-color: #666;
+}
+
+.floating-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .floating-buttons {
+    bottom: 10px;
+    gap: 5px;
+  }
+  
+  .floating-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  .floating-btn i {
+    font-size: 16px;
+  }
+}
+/* floating buttons end */

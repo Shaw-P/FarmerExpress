@@ -1131,7 +1131,8 @@ cursor:pointer
 	line-height:35px;
 }
 .h5, h5 {
-	font-size:18px
+	/* font-size:18px */
+	font-size:20px
 }
 .h6, h6 {
 	font-size:12px

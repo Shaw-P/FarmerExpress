@@ -133,9 +133,45 @@
     <!-- <h4 class="section-title text-justify mg-top">農夫快遞「 快 」 而「 不馬虎 」，配送過程全程由冷鏈車隊低溫保存，並定期廠內消毒與農藥殘留抽樣檢驗，為您的食材做最嚴格的安全把關。</h4> -->
     <!-- <h4 class="section-title text-justify mg-top">近年餐飲市場處境嚴峻，物價上漲，成本提高，農夫快遞用新鮮的品質、合理的價格與餐飲業者並肩作戰，期待在後疫情時代，為高雄、台南、屏東等南部地區餐飲業開創新的篇章 。</h4> -->
 
-    <h4 class="section-title text-justify mg-top">農夫快遞經營團隊深耕南部蔬果批發十年，<br>作為蔬果供應商的角設悉知餐飲業食材及時間人力成本管理之困難</h4>
-    <h4 class="section-title text-justify mg-top">因此在服務上對到貨時間準點率有嚴格管控以及精進食材追加的機制以此滿足業者對食材使用時機之需求</h4>
-    <h4 class="section-title text-justify mg-top">對各式食材除了農產品分級以及品管，也對業者需要之特殊食材規格化</h4>
+    <h5 class="section-title text-center mobile_content mg-top">農夫快遞經營團隊深耕南部蔬果批發十年，作為蔬果供應商的角設悉知餐飲業食材及時間人力成本管理之困難<br>因此在服務上對到貨時間準點率有嚴格管控以及精進食材追加的機制以此滿足業者對食材使用時機之需求<br>對各式食材除了農產品分級以及品管，也對業者需要之特殊食材規格化</h5>
+
+    <h5 class="section-title font_weight_bold text-center mg-top">
+      最新活動
+    </h5>
+    <h5 class="section-title text-center mobile_content">
+      •	公布近期的促銷活動、限定優惠，吸引新舊客戶參與。
+    </h5>
+    <h5 class="section-title font_weight_bold text-center">
+      顧客見證
+    </h5>
+    <h5 class="section-title text-center mobile_content">
+      •	分享來自客戶的真實評價與故事，建立品牌信任。
+    </h5>
+    <h5 class="section-title font_weight_bold text-center">
+      配送資訊
+    </h5>
+    <h5 class="section-title text-center mobile_content">
+      •	詳細說明配送範圍、時效及費用，幫助用戶快速了解服務細節。
+    </h5>
+    <h5 class="section-title font_weight_bold text-center">
+      常見問題
+    </h5>
+    <h5 class="section-title text-center mobile_content">
+      •	回答用戶關於產品、訂單、配送的常見問題，提升服務效率。
+    </h5>
+    <h5 class="section-title font_weight_bold text-center">
+      營養專欄
+    </h5>
+    <h5 class="section-title text-center mobile_content">
+      •	提供食材相關的健康小知識或營養建議，增加專業形象。
+    </h5>
+    <h5 class="section-title font_weight_bold text-center">
+      品牌故事
+    </h5>
+    <h5 class="section-title text-center mobile_content">
+      • 深入介紹品牌創立背景與發展歷程，拉近與消費者的距離。
+    </h5>
+    
 
     <img src="images/farmerexpress_car.png" class="pic50 pic_phone img-responsive center-block mg-top">
     <a href="https://line.me/ti/p/JiwSM4CZXQ" target="_blank" class="btn btn-XL btn-success btn-radius mg-top">聯絡我們</a>
@@ -178,7 +214,95 @@
   </div>
   <!-- Footer END -->
 </div>
+<!-- Floating Button Footer  -->
+<div class="floating-buttons">
+  <a href="https://line.me/ti/p/JiwSM4CZXQ" class="floating-btn line-btn">
+    <i class="fa fa-comment"></i>
+    <span>LINE</span>
+  </a>
+  <a href="tel:073746380" class="floating-btn phone-btn">
+    <i class="fa fa-phone"></i>
+    <span>服務電話</span>
+  </a>
+  <a href="#" class="floating-btn top-btn">
+    <i class="fa fa-arrow-up"></i>
+    <span>回頁首</span>
+  </a>
+</div>
 <!-- Content END -->
+
+<style>
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 1000;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  font-size: 15px;
+}
+
+.floating-buttons.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.floating-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.floating-btn i {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+.line-btn {
+  background-color: #00B900;
+}
+
+.phone-btn {
+  background-color: #1a54a8;
+}
+
+.top-btn {
+  background-color: #666;
+}
+
+.floating-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .floating-buttons {
+    bottom: 10px;
+    gap: 5px;
+  }
+  
+  .floating-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  .floating-btn i {
+    font-size: 16px;
+  }
+}
+</style>
+
 <!--動態顯示-->
 <script src="js/highlight.min.js"></script>
 <script src="js/aos.js"></script>
@@ -199,6 +323,41 @@
 <!--Menu Effect-->
 <script src="js/menu.js"></script>
 <script src='js/fancybox.js'></script>
+<!-- Floating Button Footer  -->
+<script>
+// 回到頁首按鈕功能
+  document.querySelector('.top-btn').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+  // 監聽滾動事件，當接近 footer 時隱藏懸浮按鈕
+  window.addEventListener('scroll', function() {
+    const footer = document.querySelector('.footer');
+    const floatingButtons = document.querySelector('.floating-buttons');
+    
+    if (!footer || !floatingButtons) return;
+    
+    const footerRect = footer.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+    
+    // 當 footer 進入視窗的最後 10px 範圍內時隱藏按鈕
+    if (footerRect.top - windowHeight < -200) {
+      floatingButtons.classList.add('hide');
+    } else {
+      floatingButtons.classList.remove('hide');
+    }
+  });
+
+  // 確保頁面加載時也檢查一次位置
+  document.addEventListener('DOMContentLoaded', function() {
+    // 觸發一次滾動事件來初始化按鈕狀態
+    window.dispatchEvent(new Event('scroll'));
+  });
+</script>
  
 <!--產品展開-->
 </body>

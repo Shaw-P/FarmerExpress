@@ -141,7 +141,15 @@
     </div>
     
      <section class="row">
-      <div class="col-md-12 col-sm-12">
+      <div class="col-md-12 col-xs-12 text-center">
+        <h5 class="section-title text-center mobile_content">
+          食品安全是農夫快遞的核心價值<br>從產品來源的嚴格挑選到配送過程中的全程冷鏈管理，我們使用高於業界標準的方式保障品質。<br>產品在運送前會經過多項檢驗，確保符合食品安全法規與標準。<br>此外，我們還注重教育消費者，提供食材保存與使用的相關資訊，讓您在也能輕鬆保持食材新鮮。
+          </h5>
+          <h5 class="section-title text-center mg-top mobile_content">
+            我們深知食品安全對每個人的重要性，並以此為責任，全力守護每一餐的安心與健康。
+          </h5>
+      </div>
+      <div class="col-md-12 col-sm-12 mg-top">
         <div class="col-md-6 col-sm-6">
           <div class="col-md-12 col-xs-12 food_safety_title2">
               <button class="btn-XL btn-title btn-title-radius" disabled>廠房定期消毒清潔</button>
@@ -149,7 +157,7 @@
           <div class="col-md-12 col-xs-12">
             <img src="images/clean.jpg" class="food_safety_img">
           </div>
-          <div class="col-md-12 col-xs-12 align-items-center">
+          <div class="col-md-12 col-xs-12 align-items-center mobile_content">
             <p class="card-text" style="line-height: 1.8; display: inline-block; text-align: left;">與「城市蟲控」合作，定期進<br>行廠房環境消毒、清潔、除蟲<br>，所有使用藥劑皆為環保署登<br>記藥劑，符合世界標準，保證<br>安全。</p>
           </div>
         </div>
@@ -160,7 +168,7 @@
           <div class="col-md-12 col-xs-12">
             <img src="images/fruit_check.jpg" class="food_safety_img">
           </div>
-          <div class="col-md-12 col-xs-12 align-items-center">
+          <div class="col-md-12 col-xs-12 align-items-center mobile_content">
             <p class="card-text" style="line-height: 1.8; display: inline-block; text-align: left;">與「環虹錕騰科技股份有限<br>公司」合作，定期抽樣檢驗食<br>材並提供報告，為客戶的食安<br>把關。</p>
           </div>
         </div>
@@ -173,7 +181,7 @@
           <div class="col-md-12 col-xs-12">
             <img src="images/cold_chain_car.jpg" class="food_safety_img">
           </div>
-          <div class="col-md-12 col-xs-12 align-items-center">
+          <div class="col-md-12 col-xs-12 align-items-center mobile_content">
             <p class="card-text" style="line-height: 1.8; display: inline-block; text-align: left;">食材以冷藏車配送，全程低溫<br>保鮮，避免高溫造成鮮度下降<br>，確保食材高品質。</p>
           </div>
         </div>
@@ -184,11 +192,13 @@
           <div class="col-md-12 col-xs-12">
             <img src="images/fruit_tag.png" class="food_safety_img">
           </div>
-          <div class="col-md-12 col-xs-12 align-items-center">
+          <div class="col-md-12 col-xs-12 align-items-center mobile_content">
             <p class="card-text" style="line-height: 1.8; display: inline-block; text-align: left;">出貨商品皆包裝確實並貼上進<br>出貨日期，新鮮一目了然。</p>
           </div>
         </div>
       </div>
+
+      
       </section>
   
   </div>
@@ -230,8 +240,131 @@
   </div>
   <!-- Footer END -->
 </div>
+<!-- Floating Button Footer  -->
+<div class="floating-buttons">
+  <a href="https://line.me/ti/p/JiwSM4CZXQ" class="floating-btn line-btn">
+    <i class="fa fa-comment"></i>
+    <span>LINE</span>
+  </a>
+  <a href="tel:073746380" class="floating-btn phone-btn">
+    <i class="fa fa-phone"></i>
+    <span>服務電話</span>
+  </a>
+  <a href="#" class="floating-btn top-btn">
+    <i class="fa fa-arrow-up"></i>
+    <span>回頁首</span>
+  </a>
+</div>
 <!-- Content END -->
+
+<style>
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 1000;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  font-size: 15px;
+}
+
+.floating-buttons.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.floating-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.floating-btn i {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+.line-btn {
+  background-color: #00B900;
+}
+
+.phone-btn {
+  background-color: #1a54a8;
+}
+
+.top-btn {
+  background-color: #666;
+}
+
+.floating-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .floating-buttons {
+    bottom: 10px;
+    gap: 5px;
+  }
+  
+  .floating-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  .floating-btn i {
+    font-size: 16px;
+  }
+}
+</style>
+
 <!--動態顯示-->
+<!-- Floating Button Footer  -->
+<script>
+// 回到頁首按鈕功能
+  document.querySelector('.top-btn').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+  // 監聽滾動事件，當接近 footer 時隱藏懸浮按鈕
+  window.addEventListener('scroll', function() {
+    const footer = document.querySelector('.footer');
+    const floatingButtons = document.querySelector('.floating-buttons');
+    
+    if (!footer || !floatingButtons) return;
+    
+    const footerRect = footer.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+    
+    // 當 footer 進入視窗的最後 10px 範圍內時隱藏按鈕
+    if (footerRect.top - windowHeight < -200) {
+      floatingButtons.classList.add('hide');
+    } else {
+      floatingButtons.classList.remove('hide');
+    }
+  });
+
+  // 確保頁面加載時也檢查一次位置
+  document.addEventListener('DOMContentLoaded', function() {
+    // 觸發一次滾動事件來初始化按鈕狀態
+    window.dispatchEvent(new Event('scroll'));
+  });
+</script>
 <script src="js/highlight.min.js"></script>
 <script src="js/aos.js"></script>
 <script>
